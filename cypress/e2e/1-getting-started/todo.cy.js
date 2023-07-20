@@ -32,7 +32,7 @@ describe("example to-do app", () => {
     // and then perform an assertion with `should`.
     cy.get(".todo-list li")
       .first()
-      .should("have.text", "Pay elecfdfdtric bill");
+      .should("have.text", "Pay elecfdfdtriasdac bill");
     cy.get(".todo-list li").last().should("have.text", "Walk the dog");
   });
 
